@@ -22,11 +22,11 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 165px;
+    height: 12rem;
     display: none;
     cursor: pointer;
     border: none;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .SegmentParts:hover .RightButton {
     display: block;
