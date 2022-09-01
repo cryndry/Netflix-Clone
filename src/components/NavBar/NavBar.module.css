@@ -1,15 +1,18 @@
 .navigation {
     color: #e5e5e5;
+    background-color: transparent;
     display: flex;
     height: 68px;
     align-items: center;
     justify-content: space-between;
     position: fixed;
+    z-index: 1;
     top: 0;
     right: 0;
     left: 0;
     margin: inherit;
 }
+
 .mainNavigation {
     display: flex;
 }
@@ -25,6 +28,7 @@
     margin-left: 1rem;
     font-size: 0.8 rem;
 }
+
 .navigationItem a {
     text-decoration: none;
     color: inherit;
