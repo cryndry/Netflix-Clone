@@ -1,0 +1,19 @@
+.FooterLinkItems {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.FooterLinkWrapper {
+    flex-basis: 25%;
+    margin-bottom: 16px;
+}
+
+.FooterLinkItem {
+    color: #808080;
+    text-decoration: none;
+    letter-spacing: 0;
+}

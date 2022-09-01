@@ -1,0 +1,18 @@
+.secNavigation {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.secNavigationItem {
+    margin-left: 1rem;
+    width: auto;
+    height: auto;
+}
+
+.ProfileButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: grey;
+}

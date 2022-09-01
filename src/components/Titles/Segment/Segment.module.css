@@ -1,0 +1,34 @@
+.Segment {
+    /* margin-bottom: 1.5rem; */
+    margin: 3vw 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.SegmentTitle {
+    color: #e5e5e5;
+}
+
+.SegmentParts {
+    display: flex;
+
+}
+
+.SegmentParts>img {
+    margin-right: 0.5rem;
+    border-radius: 4px;
+}
+
+.RightButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 165px;
+    display: none;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.SegmentParts:hover .RightButton {
+    display: block;
+}

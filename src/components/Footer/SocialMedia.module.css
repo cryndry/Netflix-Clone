@@ -1,0 +1,14 @@
+.socialLinks {
+    color: #e5e5e5;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.socialLink {
+    color: inherit;
+    margin-right: 8px;
+}
+
+.socialLinks a:last-child {
+    margin-right: 0;
+}
